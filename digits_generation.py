@@ -181,7 +181,7 @@ def main():
                                             std_noise: 0.7})
             # get the image from the model giving as input the latent distribution z
             x_gen = tf.reshape(model.observe(z=latent)["x_mean"], [-1, 28, 28, 1])
-            images = sess.run(x_gen, feed_dict={n: 100, n_particles: 1})
+            images = sess.run(x_gen, feed_dict={})
             name = os.path.join(result_path, "{}.png".format(i))
             save_image_collections(images, name)
 
