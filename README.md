@@ -1,4 +1,4 @@
-# vairational-autoencoder
+# Variational-Autoencoder
 
 Variational Autoencoders developed with Tensorflow and Zhusuan and their application to generate new data.
 It contains the code to implement the following projects:
