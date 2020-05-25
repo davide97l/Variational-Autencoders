@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="80d62215-a5fc-46f8-81c6-44f95e9b2af0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/checkpoints/vae_digits/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/vae_digits/vae.epoch.1000.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/vae_digits/vae.epoch.1000.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/vae_digits/vae.epoch.1000.ckpt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digits_generation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/vae_digits/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/vae_digits/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/vae_digits/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/vae_digits/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/vae_digits/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/vae_digits/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/vae_digits/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/vae_digits/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/vae_digits/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/vae_digits/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/vae_digits/random_samples.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/_static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/_static/images/bnn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/_static/images/index.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/_static/images/lda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/_static/images/lntm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/_static/images/matrixmul.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/_static/images/vae_mnist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/_static/images/zhusuan-logo-h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/_static/images/zhusuan-logo-h.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/_static/images/zhusuan-logo-v.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/_static/images/zhusuan-logo-v.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/api/zhusuan.diagnostics.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/api/zhusuan.distributions.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/api/zhusuan.evaluation.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/api/zhusuan.framework.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/api/zhusuan.hmc.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/api/zhusuan.legacy.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/api/zhusuan.sgmcmc.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/api/zhusuan.transform.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/api/zhusuan.utils.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/api/zhusuan.variational.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/contributing.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/index.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/mathjax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/post_apidoc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/refs.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/tutorials/bnn.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/tutorials/concepts.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/tutorials/lntm.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/docs/tutorials/vae.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/bayesian_neural_nets/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/bayesian_neural_nets/bnn_sgmcmc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/bayesian_neural_nets/bnn_vi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/bayesian_neural_nets/variational_dropout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/gaussian_process/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/gaussian_process/svgp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/gaussian_process/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/generative_adversarial_nets/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/generative_adversarial_nets/dcgan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/generative_adversarial_nets/wasserstein_gan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/normalizing_flows/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/normalizing_flows/vae_nf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/probabilistic_matrix_factorization/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/probabilistic_matrix_factorization/pmf_hmc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/semi_supervised_vae/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/semi_supervised_vae/vae_ssl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/semi_supervised_vae/vae_ssl_adaptive_is.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/sigmoid_belief_nets/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/sigmoid_belief_nets/sbn_adaptive_is.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/sigmoid_belief_nets/sbn_vimco.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/topic_models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/topic_models/lntm_mcem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/toy_examples/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/toy_examples/gaussian.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/toy_examples/mixture_sgnht.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/toy_examples/toy2d_intractable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/utils/dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/utils/multi_gpu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/utils/optimizers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/utils/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/variational_autoencoders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/variational_autoencoders/bernoulli_latent_vae.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/variational_autoencoders/iwae.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/variational_autoencoders/vae.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/examples/variational_autoencoders/vae_conv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/requirements-dev.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/setup.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/_div_op.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/_true_div_op.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/distributions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/distributions/test_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/distributions/test_multivariate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/distributions/test_univariate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/distributions/test_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/distributions/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/framework/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/framework/test_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/framework/test_stochastic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/framework/test_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/test_diagnostics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/test_evaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/test_mcmc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/test_transform.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/test_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/variational/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/variational/test_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/variational/test_exclusive_kl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/variational/test_inclusive_kl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/variational/test_monte_carlo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/tests/variational/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/diagnostics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/distributions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/distributions/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/distributions/multivariate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/distributions/univariate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/distributions/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/evaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/framework/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/framework/bn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/framework/meta_bn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/framework/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/hmc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/legacy/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/legacy/distributions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/legacy/distributions/special.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/legacy/framework/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/legacy/framework/stochastic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/sgmcmc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/transform.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/variational/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/variational/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/variational/exclusive_kl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/variational/inclusive_kl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhusuan-master/zhusuan/variational/monte_carlo.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1790726125">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="5286" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="5286" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="43" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="43" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="594311770">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1374" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="1374" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Vae/digits_generation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3565">
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>save</find>
+      <find>variational</find>
+      <find>n_particles</find>
+      <find>n_samples</find>
+      <find>x_test</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/homework1.py" />
+        <option value="$PROJECT_DIR$/examples/conf.py" />
+        <option value="$PROJECT_DIR$/examples/utils.py" />
+        <option value="$PROJECT_DIR$/examples/utils/utils.py" />
+        <option value="$PROJECT_DIR$/examples/utils/dataset.py" />
+        <option value="$PROJECT_DIR$/venv/Lib/site-packages/zhusuan/framework/utils.py" />
+        <option value="$PROJECT_DIR$/venv/Lib/site-packages/examples/utils/utils.py" />
+        <option value="$USER_HOME$/Projects/TrackPosition/trackpos.py" />
+        <option value="$PROJECT_DIR$/homework2.py" />
+        <option value="$PROJECT_DIR$/digits_generation.py" />
+        <option value="$PROJECT_DIR$/hanzi_generator.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="VariationalAutencoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VariationalAutencoder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VariationalAutencoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VariationalAutencoder" type="462c0819:PsiDirectoryNode" />
+              <item name="Donut" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VariationalAutencoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VariationalAutencoder" type="462c0819:PsiDirectoryNode" />
+              <item name="Vae" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="MLhomeworks" is-module-sdk="true" working-directory="$PROJECT_DIR$">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="MLhomeworks" />
+        <option name="myWorkingDirectory" value="$PROJECT_DIR$" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.digits_generation (1)">
+    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MLhomeworks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/Lib/site-packages/pip" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Lib/site-packages/pip/__main__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="digits_generation (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MLhomeworks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Vae" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Vae/digits_generation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="digits_generation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MLhomeworks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/digits_generation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hanzi_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MLhomeworks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hanzi_generator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MLhomeworks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.digits_generation" />
+      <item itemvalue="Python.hanzi_generator" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.__main__" />
+      <item itemvalue="Python.digits_generation (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.digits_generation (1)" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.__main__" />
+        <item itemvalue="Python.hanzi_generator" />
+        <item itemvalue="Python.digits_generation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80d62215-a5fc-46f8-81c6-44f95e9b2af0" name="Default Changelist" comment="" />
+      <created>1570696028497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570696028497</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32907802" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/numpy/matrixlib/defmatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="232" selection-start-line="232" selection-end-line="232" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/numpy/linalg/linalg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="550" selection-start-line="550" selection-end-line="550" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/utils.py" />
+    <entry file="file://$PROJECT_DIR$/examples/conf.py" />
+    <entry file="file://$PROJECT_DIR$/homework1.py" />
+    <entry file="file://$PROJECT_DIR$/examples/utils/dataset.py" />
+    <entry file="file://$PROJECT_DIR$/examples/utils/utils.py" />
+    <entry file="file://$USER_HOME$/Projects/TrackPosition/trackpos.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow_core/python/ops/template.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2982">
+          <caret line="160" selection-start-line="160" selection-end-line="160" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/zhusuan/framework/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Projects/DeepDream/DeepDreamGenerator.py" />
+    <entry file="file://$PROJECT_DIR$/zhusuan-master/zhusuan/variational/exclusive_kl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3964">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhusuan-master/zhusuan/evaluation.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhusuan-master/zhusuan/hmc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79">
+          <caret line="381" column="37" lean-forward="true" selection-start-line="381" selection-start-column="30" selection-end-line="381" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhusuan-master/examples/toy_examples/gaussian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhusuan-master/examples/bayesian_neural_nets/bnn_sgmcmc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2389" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhusuan-master/examples/bayesian_neural_nets/variational_dropout.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhusuan-master/examples/variational_autoencoders/iwae.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-562" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhusuan-master/examples/variational_autoencoders/vae_conv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2394" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhusuan-master/examples/utils/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2394" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhusuan-master/examples/variational_autoencoders/vae.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1953">
+          <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhusuan-master/zhusuan/framework/bn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10962">
+          <caret line="511" lean-forward="true" selection-start-line="511" selection-end-line="511" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/zhusuan/variational/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhusuan-master/zhusuan/variational/inclusive_kl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2583" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/zhusuan/variational/exclusive_kl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3108">
+          <caret line="266" selection-start-line="266" selection-end-line="266" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhusuan-master/zhusuan/variational/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3565" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework2.py" />
+    <entry file="file://$PROJECT_DIR$/zhusuan-master/zhusuan/distributions/multivariate.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhusuan-master/zhusuan/distributions/univariate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6027">
+          <caret line="305" column="31" selection-start-line="305" selection-start-column="22" selection-end-line="305" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhusuan-master/zhusuan/utils.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhusuan-master/zhusuan/distributions/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2079">
+          <caret line="104" column="69" selection-start-line="104" selection-start-column="68" selection-end-line="104" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhusuan-master/zhusuan/distributions/utils.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhusuan-master/examples/utils/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow_core/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19467">
+          <caret line="955" selection-start-line="955" selection-end-line="955" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhusuan-master/zhusuan/framework/meta_bn.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/examples/utils/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Tsinghua University/Advanced Network Management/ANM-Project/anm_challenge.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pip/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pip/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tfutil/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tfutil/nn.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sonnet/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/hanzi_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digits_generation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1948">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Donut/donut_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vae/digits_generation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3565">
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
